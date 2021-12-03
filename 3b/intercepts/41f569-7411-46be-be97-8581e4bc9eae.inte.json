@@ -7,7 +7,7 @@
             "iterations": 1,
             "std_devs": 3,
             "use_iqr_filtering": false,
-            "use_standard_deviation_filtering": true
+            "use_standard_deviation_filtering": false
         },
         "fit": "linear",
         "fn": 180,
@@ -26,7 +26,7 @@
             "iterations": 1,
             "std_devs": 3,
             "use_iqr_filtering": false,
-            "use_standard_deviation_filtering": true
+            "use_standard_deviation_filtering": false
         },
         "fit": "linear",
         "fn": 180,
@@ -45,7 +45,7 @@
             "iterations": 1,
             "std_devs": 3,
             "use_iqr_filtering": false,
-            "use_standard_deviation_filtering": true
+            "use_standard_deviation_filtering": false
         },
         "fit": "linear",
         "fn": 179,
@@ -59,23 +59,26 @@
         "value": 0.07426287278395097
     },
     "Ar39": {
-        "error": 0.01836497359522232,
+        "error": 0.017242894198762536,
         "error_type": "SEM",
         "filter_outliers_dict": {
             "filter_outliers": true,
             "iterations": 1,
             "std_devs": 3,
             "use_iqr_filtering": false,
-            "use_standard_deviation_filtering": true
+            "use_standard_deviation_filtering": false
         },
         "fit": "parabolic",
-        "fn": 180,
+        "fn": 178,
         "include_baseline_error": true,
         "n": 180,
-        "outlier_excluded": [],
+        "outlier_excluded": [
+            153,
+            30
+        ],
         "reviewed": true,
         "user_excluded": [],
-        "value": 0.07571073481464163
+        "value": 0.07087441667413695
     },
     "Ar40": {
         "error": 0.01586694582204837,
@@ -85,7 +88,7 @@
             "iterations": 1,
             "std_devs": 3,
             "use_iqr_filtering": false,
-            "use_standard_deviation_filtering": true
+            "use_standard_deviation_filtering": false
         },
         "fit": "parabolic",
         "fn": 180,

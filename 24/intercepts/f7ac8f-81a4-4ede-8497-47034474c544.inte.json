@@ -1,6 +1,6 @@
 {
     "Ar36": {
-        "error": 0.0001126220834485239,
+        "error": 0.0002568199228189002,
         "error_type": "SEM",
         "filter_outliers_dict": {
             "filter_outliers": true,
@@ -9,17 +9,19 @@
             "use_iqr_filtering": false,
             "use_standard_deviation_filtering": false
         },
-        "fit": "average",
-        "fn": 180,
+        "fit": "linear",
+        "fn": 179,
         "include_baseline_error": true,
         "n": 180,
-        "outlier_excluded": [],
+        "outlier_excluded": [
+            0
+        ],
         "reviewed": true,
         "user_excluded": [],
-        "value": 0.011362763380424844
+        "value": 0.010779190101954942
     },
     "Ar37": {
-        "error": 0.0020160987756219135,
+        "error": 0.0047125741994336065,
         "error_type": "SEM",
         "filter_outliers_dict": {
             "filter_outliers": true,
@@ -28,17 +30,17 @@
             "use_iqr_filtering": false,
             "use_standard_deviation_filtering": false
         },
-        "fit": "average",
+        "fit": "linear",
         "fn": 180,
         "include_baseline_error": true,
         "n": 180,
         "outlier_excluded": [],
         "reviewed": true,
         "user_excluded": [],
-        "value": -0.011172882118302772
+        "value": -0.007519241205104617
     },
     "Ar38": {
-        "error": 0.0017272108865760854,
+        "error": 0.003971456317087961,
         "error_type": "SEM",
         "filter_outliers_dict": {
             "filter_outliers": true,
@@ -47,7 +49,7 @@
             "use_iqr_filtering": false,
             "use_standard_deviation_filtering": false
         },
-        "fit": "average",
+        "fit": "linear",
         "fn": 178,
         "include_baseline_error": true,
         "n": 180,
@@ -57,7 +59,7 @@
         ],
         "reviewed": true,
         "user_excluded": [],
-        "value": 0.06284980836512097
+        "value": 0.07056129334633242
     },
     "Ar39": {
         "error": 0.009714834695663704,
